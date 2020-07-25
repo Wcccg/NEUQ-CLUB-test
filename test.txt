@@ -1,0 +1,27 @@
+第一课：git的安装及入门
+
+1.吹水、命令行基础
+- git有什么用
+- 课程安排
+    第一课：安装入门
+    第二课：git命令行讲解完成
+    第三课：使用vscode用户界面操作git
+- 命令行基础
+    cd、dir、md、rd/s/q、type nul、del
+    pip、conda
+
+2.安装及基础配置
+下载网址：https://git-scm.com/
+git config --global user.name "你的昵称"
+git config --global user.email "你的邮箱"
+
+3.流程讲解
+本地文件 -> 暂存区 -> 本地仓库(本地存档) -> 远程仓库(github)
+
+4.基本指令
+git init [路径]     在制定路径创建仓库，省略路径则在当前目录创建仓库
+git clone <地址>[路径]      从指定地址克隆仓库，省略路径则在当前目录创建与地址仓库同名仓库
+git status      查看仓库状态
+git add <路径|文件>     将当前状态的文件添加至暂存区
+git add .       全部文件添加至暂存区
+git commit -m "<注释>"      提交暂存区至本地仓库

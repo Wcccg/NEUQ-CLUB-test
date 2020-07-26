@@ -17,15 +17,18 @@ git config --global user.email "你的邮箱"
 
 3.流程讲解
 本地文件 -> 暂存区 -> 本地仓库(本地存档) -> 远程仓库(github)
+    git add      git commit -m      git push 
+存档 -> 本地文件
+    git checkout
+远程仓库 -> 本地仓库
+    git clone
 
 4.基本指令
-git init [路径]     在制定路径创建仓库，省略路径则在当前目录创建仓库
-git clone <地址>[路径]      从指定地址克隆仓库，省略路径则在当前目录创建与地址仓库同名仓库
+git init [命名]     在制定路径创建仓库，省略路径则在当前目录创建仓库
+git clone <地址>[命名]      从指定地址克隆仓库，省略路径则在当前目录创建与地址仓库同名仓库
 git status      查看仓库状态
 git add <路径|文件>     将当前状态的文件添加至暂存区
 git add .       全部文件添加至暂存区
 git commit -m "<注释>"      提交暂存区至本地仓库
 git log     查看版本记录
 git checkout xxx       穿越到指定历史节点
-
-balabalabalabalabalabalabala...

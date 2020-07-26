@@ -7,7 +7,7 @@
     第二课：git命令行讲解完成
     第三课：使用vscode用户界面操作git
 - 命令行基础
-    cd、dir、md、rd/s/q、type nul、del
+    cd、dir、md、rd、del
     pip、conda
 
 2.安装及基础配置
@@ -17,9 +17,9 @@ git config --global user.email "你的邮箱"
 
 3.流程讲解
 本地文件 -> 暂存区 -> 本地仓库(本地存档) -> 远程仓库(github)
-    git add      git commit -m      git push 
+    git add      git commit -m    git remote ...  git push 
 存档 -> 本地文件
-    git checkout
+    git checkout ...
 远程仓库 -> 本地仓库
     git clone
 
@@ -30,5 +30,5 @@ git status      查看仓库状态
 git add <路径|文件>     将当前状态的文件添加至暂存区
 git add .       全部文件添加至暂存区
 git commit -m "<注释>"      提交暂存区至本地仓库
-git log     查看版本记录
+git log  --all  --oneline  --graph  查看版本记录
 git checkout xxx       穿越到指定历史节点

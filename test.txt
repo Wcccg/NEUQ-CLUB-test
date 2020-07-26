@@ -26,3 +26,4 @@ git add <路径|文件>     将当前状态的文件添加至暂存区
 git add .       全部文件添加至暂存区
 git commit -m "<注释>"      提交暂存区至本地仓库
 git log     查看版本记录
+git checkout xxx       穿越到指定历史节点

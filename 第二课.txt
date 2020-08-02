@@ -1,0 +1,12 @@
+第二课 git的其余命令行操作
+
+一、复习
+git init
+git clone
+git status
+git add
+git commit -m
+git log
+git checkout
+git remote add
+git push

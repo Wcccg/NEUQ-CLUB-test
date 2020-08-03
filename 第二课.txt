@@ -1,14 +1,14 @@
 第二课 git的其余命令行操作
 
 一、复习
-git init            初始化仓库。新建仓库
+git init             初始化仓库。新建仓库
 git clone 线上仓库地址 文件夹名    克隆仓库     
-git status              
-git add 文件/ .
-git commit -m "注释"
-git log 
-git checkout ##
-git push -u ## ##
+git status           查看状态
+git add 文件/ .       添加至暂存区
+git commit -m "注释"    提交暂存区至本地仓库
+git log   (oneline)(all)   查看版本日志
+git checkout ##            跳转    
+git push -u ## ##          提交至远程仓库
 
 二、标签
 git tag             查看所有标签

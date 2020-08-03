@@ -2,11 +2,35 @@
 
 一、复习
 git init
-git clone
-git status
-git add
-git commit -m
-git log
-git checkout
-git remote add
-git push
+git clone ## ##
+git status 
+git add ##
+git commit -m ##
+git log 
+git checkout ##
+git push -u ## ##
+
+二、标签
+git tag             查看所有标签
+git tag -a -m ###   添加标签
+git show ##         查看标签内容
+git checkout ##     快速跳跃
+
+三、分支
+git branch ##           创建分支
+git checkout ##         切换到分支
+git log --all --graph   图形化显示
+git checkout -b ##      创建分支并跳转
+git merge ##            合并分支
+
+四、远程仓库的进一步讲解
+git remote add ## ##
+git push -u ## ##
+git pull
+
+五、SSH密钥的配置
+作用：简化上传流程，避免每次输入用户名、密码
+见博客：https://blog.csdn.net/u013778905/article/details/83501204
+
+六、使用vscode用户界面进行git管理
+见示范

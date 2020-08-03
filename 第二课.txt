@@ -24,9 +24,10 @@ git checkout -b ##      创建分支并跳转
 git merge ##            合并分支
 
 四、远程仓库的进一步讲解
-git remote add ## ##
-git push -u ## ##
-git pull
+git remote add 起名 远程地址       为本地仓库添加远程仓库
+git remote (-v)                   查看仓库名
+git push -u 仓库名 分支名          将线上仓库与本地同步
+git pull                          本地仓库与线上同步         
 
 五、SSH密钥的配置
 作用：简化上传流程，避免每次输入用户名、密码
@@ -34,3 +35,5 @@ git pull
 
 六、使用vscode用户界面进行git管理
 见示范
+
+第二课讲解完成
